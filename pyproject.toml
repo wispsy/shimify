@@ -22,8 +22,8 @@ dependencies = []
 shimify = "shimify.cli:main"
 
 [project.urls]
-Repository = "https://github.com/outside-labs/shimify"
-Issues = "https://github.com/outside-labs/shimify/issues"
+Repository = "https://github.com/wispsy/shimify"
+Issues = "https://github.com/wispsy/shimify/issues"
 
 [build-system]
 requires = ["uv_build>=0.12.19,<0.13.0"]

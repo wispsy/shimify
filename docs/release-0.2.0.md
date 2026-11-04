@@ -56,6 +56,6 @@ reduction does not imply interpreter, memory or startup-time reduction.
 
 [IMPLEMENTATION_PLAN02.md](../IMPLEMENTATION_PLAN02.md) specifies later
 cross-module symbols, tracing, resources and measurement work.
-[Pocket-python](https://github.com/outside-labs/pocket-python) owns runtime
+[Pocket-python](https://github.com/wispsy/pocket-python) owns runtime
 selection and browser/native application assembly, with its own validation
 gates before runtime trimming.

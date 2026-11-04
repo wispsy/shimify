@@ -13,7 +13,7 @@ with only Python's standard library. Static reachability is conservative: it
 does not prove the exact minimum code required for every possible execution.
 
 This plan translates the initial Shimify gist into staged implementation. The
-[GitHub Project](https://github.com/orgs/outside-labs/projects/5) and linked
+[GitHub Project](https://github.com/orgs/wispsy/projects/5) and linked
 issues are the canonical queue; pull requests record completed behavior and
 verification. This file records architecture and sequencing.
 
