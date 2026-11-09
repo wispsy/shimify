@@ -38,7 +38,7 @@ uv build
 
 See [the forward implementation plan](IMPLEMENTATION_PLAN03.md) for smaller
 application-specific bundles and the coordinated compiler/interpreter roadmap.
-[The 0.2 plan](IMPLEMENTATION_PLAN02.md) retains the released extraction contract. The [GitHub Project](https://github.com/orgs/outside-labs/projects/5)
+[The 0.2 plan](IMPLEMENTATION_PLAN02.md) retains the released extraction contract. The [GitHub Project](https://github.com/orgs/wispsy/projects/5)
 and its linked issues track scope, acceptance criteria, and current work.
 
 Published GitHub releases use tags such as `v0.1.0`; the tag must match package

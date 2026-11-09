@@ -40,4 +40,4 @@ build/check source and wheel allowlists, run the suite from an isolated installe
 wheel, and require all three platform jobs on final main. Publish immutable
 `v0.3.0` through the existing `pypi` Trusted Publisher, compare uploaded hashes
 with workflow artifacts, and verify a fresh PyPI installation before closing
-[REL-04](https://github.com/outside-labs/shimify/issues/42).
+[REL-04](https://github.com/wispsy/shimify/issues/42).

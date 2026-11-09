@@ -29,10 +29,10 @@ package compatibility is implied.
 
 Related plans:
 
-- [Source reduction](https://github.com/outside-labs/shimify/blob/main/IMPLEMENTATION_PLAN03.md)
-- [Compiler/browser target](https://github.com/outside-labs/Python-JavaScript/blob/main/IMPLEMENTATION_PLAN.md)
-- [Application assembly](https://github.com/outside-labs/pocket-python/blob/main/IMPLEMENTATION_PLAN.md)
-- [Independent interpreter](https://github.com/outside-labs/pocket-python/blob/main/IMPLEMENTATION_PLAN_INTERPRETER.md)
+- [Source reduction](https://github.com/wispsy/shimify/blob/main/IMPLEMENTATION_PLAN03.md)
+- [Compiler/browser target](https://github.com/wispsy/Python-JavaScript/blob/main/IMPLEMENTATION_PLAN.md)
+- [Application assembly](https://github.com/wispsy/pocket-python/blob/main/IMPLEMENTATION_PLAN.md)
+- [Independent interpreter](https://github.com/wispsy/pocket-python/blob/main/IMPLEMENTATION_PLAN_INTERPRETER.md)
 
 The compiler repository became public on 2026-10-20. Project visibility remains
 separate; application artifacts still include only explicitly selected files.
@@ -80,13 +80,13 @@ meet their first milestones.
 
 | Task | Scope | Depends on | Readiness |
 | --- | --- | --- | --- |
-| [shimify/SRC-01](https://github.com/outside-labs/shimify/issues/31) | Specify application-specific source reduction profiles | Released foundation | Ready |
-| [shimify/LINK-01](https://github.com/outside-labs/shimify/issues/22) | Implement bounded cross-module callable and re-export linking | [shimify/SRC-01](https://github.com/outside-labs/shimify/issues/31) | Blocked |
-| [shimify/CLASS-01](https://github.com/outside-labs/shimify/issues/25) | Define and implement bounded class and initialization extraction | [shimify/LINK-01](https://github.com/outside-labs/shimify/issues/22) | Blocked |
-| [shimify/VND-01](https://github.com/outside-labs/shimify/issues/5) | Implement explicit resource and distribution metadata inclusion | [shimify/SRC-01](https://github.com/outside-labs/shimify/issues/31) | Blocked |
-| [shimify/TRACE-01](https://github.com/outside-labs/shimify/issues/23) | Collect bounded opt-in runtime evidence | [shimify/SRC-01](https://github.com/outside-labs/shimify/issues/31) | Blocked |
-| [shimify/PERF-01](https://github.com/outside-labs/shimify/issues/24) | Measure source reduction and complete artifacts independently | [shimify/LINK-01](https://github.com/outside-labs/shimify/issues/22), [shimify/TRACE-01](https://github.com/outside-labs/shimify/issues/23) | Blocked |
-| [shimify/ART-01](https://github.com/outside-labs/shimify/issues/32) | Specify purpose-specific distributable package artifacts | [shimify/LINK-01](https://github.com/outside-labs/shimify/issues/22), [shimify/VND-01](https://github.com/outside-labs/shimify/issues/5), [shimify/PERF-01](https://github.com/outside-labs/shimify/issues/24) | Triage |
+| [shimify/SRC-01](https://github.com/wispsy/shimify/issues/31) | Specify application-specific source reduction profiles | Released foundation | Ready |
+| [shimify/LINK-01](https://github.com/wispsy/shimify/issues/22) | Implement bounded cross-module callable and re-export linking | [shimify/SRC-01](https://github.com/wispsy/shimify/issues/31) | Blocked |
+| [shimify/CLASS-01](https://github.com/wispsy/shimify/issues/25) | Define and implement bounded class and initialization extraction | [shimify/LINK-01](https://github.com/wispsy/shimify/issues/22) | Blocked |
+| [shimify/VND-01](https://github.com/wispsy/shimify/issues/5) | Implement explicit resource and distribution metadata inclusion | [shimify/SRC-01](https://github.com/wispsy/shimify/issues/31) | Blocked |
+| [shimify/TRACE-01](https://github.com/wispsy/shimify/issues/23) | Collect bounded opt-in runtime evidence | [shimify/SRC-01](https://github.com/wispsy/shimify/issues/31) | Blocked |
+| [shimify/PERF-01](https://github.com/wispsy/shimify/issues/24) | Measure source reduction and complete artifacts independently | [shimify/LINK-01](https://github.com/wispsy/shimify/issues/22), [shimify/TRACE-01](https://github.com/wispsy/shimify/issues/23) | Blocked |
+| [shimify/ART-01](https://github.com/wispsy/shimify/issues/32) | Specify purpose-specific distributable package artifacts | [shimify/LINK-01](https://github.com/wispsy/shimify/issues/22), [shimify/VND-01](https://github.com/wispsy/shimify/issues/5), [shimify/PERF-01](https://github.com/wispsy/shimify/issues/24) | Triage |
 
 SRC-01 is the first Ready design task; LINK-01 is the priority implementation
 when that contract lands. Resource/evidence work follows its own dependencies;
@@ -165,7 +165,7 @@ function-only profiles keep their prior refusals and manifest contract.
 
 ## 0.3.0 publication plan
 
-[REL-04](https://github.com/outside-labs/shimify/issues/42) publishes the merged
+[REL-04](https://github.com/wispsy/shimify/issues/42) publishes the merged
 LINK-01, CLASS-01, VND-01, TRACE-01 and PERF-01 behavior as experimental 0.3.0.
 The [release contract](docs/release-0.3.0.md) fixes the included profiles and
 limits. Passing final-main platform CI, isolated wheel behavior, strict artifact
